@@ -1,0 +1,43 @@
+abstract class Shape implements Naming{
+
+}
+interface Naming{
+    String getName();
+}
+
+class Circle extends Shape{
+    @Override
+    public String getName() {
+        return "Circle";
+    }
+}
+
+class Triangle extends Shape{
+    @Override
+    public String getName() {
+        return "Triangle";
+    }
+}
+
+class Quad extends Shape{
+    @Override
+    public String getName() {
+        return "Quad";
+    }
+}
+
+class Dot extends Shape{
+    @Override
+    public String getName() {
+        return "Dot";
+    }
+}
+
+class Line extends Shape{
+    @Override
+    public String getName() {
+        return "Line";
+    }
+}
+
+
